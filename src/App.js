@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import { StyleSheet, css } from 'aphrodite';
+import Home from './components/Home';
 
 import './App.css';
 
@@ -42,11 +43,13 @@ class App extends Component {
 
     return (
       <div className="App">
-        <input onChange={this.updateTheChosen} />
+        {/* <input onChange={this.updateTheChosen} />
         <button className={css(styles.button)}>Chose</button>
         <br />
-        <button onClick={this.getAnimals}>Available Animals</button>
+        <button onClick={this.getAnimals}>Available Animals</button> */}
 
+        <Home />
+        
       </div>
     );
   }

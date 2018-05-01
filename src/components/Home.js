@@ -15,7 +15,7 @@ class Home extends Component {
           },
           {
             label: 'Another Population',
-            data: [121223,212334,4541233,345124,341254,812376],
+            data: [121223, 212334, 4541233, 345124, 341254, 812376],
           }
         ],
       },

@@ -37,19 +37,18 @@ class App extends Component {
         border: 'none',
         borderRadius: '3px',
         color: 'white',
-
-      }
+      },
     })
 
     return (
       <div className="App">
-        {/* <input onChange={this.updateTheChosen} />
+        <input onChange={this.updateTheChosen} />
         <button className={css(styles.button)}>Chose</button>
         <br />
-        <button onClick={this.getAnimals}>Available Animals</button> */}
+        <button onClick={this.getAnimals}>Available Animals</button>
 
         <Home />
-        
+
       </div>
     );
   }
